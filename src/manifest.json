@@ -8,6 +8,12 @@
         "js": ["scripts/content.js"]
     }],
     "action": {
-        "default_icon": "icon.png"
+        "default_icon": "icons/icon64.png"
+    },
+    "icons": {
+        "32": "icons/icon32.png",
+        "64": "icons/icon64.png",
+        "128": "icons/icon128.png",
+        "256": "icons/icon256.png"
     }
 }
