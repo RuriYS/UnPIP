@@ -19,8 +19,6 @@ const observeVideos = () => {
     videos.forEach(video => videoObserver.observe(video));
 };
 
-observeVideos();
-
 const autoClosePopup = () => {
     const closeButton = document.querySelector('[aria-label="Close Video and scroll"]')
     if (closeButton) {
@@ -28,4 +26,5 @@ const autoClosePopup = () => {
     }
 };
 
+setInterval(observeVideos, 500);
 setInterval(autoClosePopup, 100)
