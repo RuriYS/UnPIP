@@ -1,0 +1,13 @@
+{
+    "name": "Un-PIP for Facebook",
+    "description": "Automatically closes Facebook's stupid picture in picture feature for videos.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [{
+        "matches": ["*://*.facebook.com/*"],
+        "js": ["scripts/content.js"]
+    }],
+    "action": {
+        "default_icon": "icon.png"
+    }
+}
